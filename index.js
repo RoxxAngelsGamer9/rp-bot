@@ -8,6 +8,7 @@ client.login(process.env.token)
 
 client.on("ready", () => {
     console.log("Bot ONLINE")
+    client.user.setActivity('BOT RP PREFIX . -chiamamirob#2965', { type: "WATCHING"})
 })
 
 client.on("messageCreate", (message) => {
