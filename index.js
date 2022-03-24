@@ -27,7 +27,7 @@ client.on("messageCreate", (message) => {
             .setTitle("INIZIO TURNO LAVORATIVO")
             .setDescription("INIZIO TURNO LAVORATIVO" + message.author.toString())
 
-        message.channel.send({embeds: [embed] })
+        message.channel.send({embeds: [inizioturno] })
     }
 
     if (message.content == ".pacific") {
