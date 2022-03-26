@@ -25,7 +25,7 @@ client.on("messageCreate", (message) => {
     if(message.content == ".inizioturno") {
         var inizioturno = new Discord.MessageEmbed()
             .setTitle("INIZIO TURNO LAVORATIVO")
-            .setDescription("INIZIO TURNO LAVORATIVO" + message.author.toString())
+            .setDescription("INIZIO TURNO LAVORATIVO " + message.author.toString())
 
         message.channel.send({embeds: [inizioturno] })
     }
